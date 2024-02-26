@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-myex{
+    width: 100%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    margin-top: 90px;
+}
+.main-myex2{
+    width: 100%;
+    height: 364px;
+    /* background-color: rgb(189, 187, 192); */
+    margin-top: 60px;
+display: flex;
+}
+.heading-myex{
+    text-align: center;
+}
+.ditals-myex{
+    width: 55%;
+    height: 364px;
+    /* background-color: yellowgreen; */
+}
+.heading-h2{
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.pera-myex{
+    color: rgb(37, 36, 36);
+    padding-left: 100px;
+    /* padding-bottom: 10px; */
+}
+.progressbar{
+    width: 35%;
+    height: 364px;
+    /* background-color: rgb(166, 168, 162);    */
+}
+.adjust-progress{
+    margin-bottom: 41px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    
+    .main-myex2{
+        display: inherit !important;
+    }
+    .ditals-myex{
+        width: 100% !important;
+    }
+    .heading-h2{
+        padding-left: 10px;
+    }
+    .pera-myex{
+        padding-left: 10px;
+    }
+    .about-footer1{
+        margin-top: 0 !important;
+    }
+    .progressbar{
+        width: 100% !important;
+        padding-left: 10px;
+    
+}
+.heading-h5p{
+    width: 90% !important;
+    
+}
+.adjust-progress{
+    width: 90% !important;
+
+}
+.heading-aboutme{
+    padding-left: 20px;
+    top: 140px;
+}
+.heading-aboutme1{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 67px;
+}
+.mycard-name{
+width: 100%;
+}
+.car-seting{
+    padding-right: 20px;
+}
+
+}
+/* complete */
+@media only screen and (max-width: 375px) {
+    
+    .main-myex2{
+        display: inherit !important;
+    }
+    .ditals-myex{
+        width: 100% !important;
+    }
+    .heading-h2{
+        padding-left: 8px;
+    }
+    .pera-myex{
+        padding-left: 8px;
+    }
+    .about-footer1{
+        margin-top: 0 !important;
+    }
+    .progressbar{
+        width: 100% !important;
+        padding-left: 8px;
+    
+}
+.heading-h5p{
+    width: 90% !important;
+    
+}
+.adjust-progress{
+    width: 90% !important;
+
+}
+.heading-aboutme{
+    padding-left: 16px;
+    top: 135px;
+}
+.heading-aboutme1{
+    font-weight: 500;
+    font-size: 27px;
+    margin-top: 65px;
+}
+.mycard-name{
+width: 100%;
+}
+.car-seting{
+    padding-right: 16px;
+}
+
+}

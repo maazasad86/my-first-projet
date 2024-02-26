@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+
+}
+:root {
+    --bg-color: #f8f7f7;
+    --second-text-color: black;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+    --textp-color: #757c80;
+    --footer-color: rgba(93, 102, 144, 0.94);
+}
+.main-event{
+    width: 100%;
+    height: fit-content;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.main-event2{
+    width: 89%;
+    height: 270px;
+    /* background-color: blueviolet; */
+    border-bottom:solid rgb(193, 192, 192) 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-set-eve{
+width: fit-content;
+height: fit-content;
+}
+.info-event{
+    width: 45%;
+    height: 240px;
+    /* background-color: chocolate; */
+}
+.main-info-event{
+    width: 100%;
+    height: fit-content;
+    /* background-color: cyan; */
+    display: flex;
+    margin-top: 10px;
+}
+.number-event{
+width: 20%;
+height: 40%;
+/* background-color: rgb(18, 19, 19); */
+}
+.heading-event2{
+    width: 75%;
+    height: 40%;
+    /* background-color: blue; */
+    padding-left: 25px;
+}
+.numbet-date{
+    font-weight: 800;
+    font-size: 300%;
+    text-align:center;
+    color: var(--main-color);
+    
+}
+.months{
+    text-align: center;
+    color: var(--main-color);
+}
+.lectu{
+    padding-bottom: 7px;
+}
+.per-info-eve{
+    /* font-size: larger; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1200px){
+    .rnav1 {
+        margin-bottom: 800px !important;
+    }
+
+
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+}
+@media only screen and (max-width: 375px) {
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+
+}
+
+@media only screen and (max-width: 540px){
+    .rnav1 {
+        margin-bottom: 800px !important;
+    }
+
+
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+}
+@media only screen and (max-width: 375px) {
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+    .rnav1 {
+        margin-bottom: 800px !important;
+    }
+
+
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+}
+@media only screen and (max-width: 375px) {
+    .main-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cadetblue; */
+        display: inherit !important;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .main-event2{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        border-bottom:solid rgb(193, 192, 192) 1px;
+        display: inherit !important;
+        justify-content: center;
+    }
+    .main-info-event{
+        width: 100%;
+        height: fit-content;
+        /* background-color: cyan; */
+        display: inherit !important;
+        margin-top:
+         10px;
+    }
+    .info-event{
+        width: 100%;
+        height: auto;
+        /* background-color: chocolate; */
+    }
+    .number-event{
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        /* background-color: rgb(18, 19, 19); */
+        }
+        .heading-event2{
+            width: 100%;
+            height: auto;
+            /* background-color: blue; */
+             padding-left: 10px;
+            }
+            .img-set-eve{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .img-set-eve img{
+        width: 100%;
+        height: fit-content;
+    }
+    .per-info-eve{
+        /* font-size: larger; */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align:justify ;
+        padding-left: 10px;
+
+        }
+}

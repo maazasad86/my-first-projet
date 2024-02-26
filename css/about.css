@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #f8f7f7;
+    --second-text-color: black;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+    --textp-color: #757c80;
+    --footer-color: rgba(93, 102, 144, 0.94);
+}.about-header{
+    width: 100%;
+    height: 450px;
+    background-image: url(img/headway-5QgIuuBxKwM-unsplash.jpg);
+    filter: brightness(30%);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.heading-aboutme{
+    /* padding-top: 150px; */
+    position: absolute;
+    top: 290px;
+    color: var(--text-color);
+    padding-left: 90px;
+}
+.heading-aboutme1{
+    font-weight: 500;
+    font-size: 49px;
+}
+.about-home{
+    text-decoration: none;
+    font-size: larger;
+    color: var(--text-color);
+    transition: 0.9s;
+}
+.about-home:hover{
+    color: var(--main-color);
+}
+.about-still{
+    margin-left: 15px;
+    font-size: larger;
+    color: var(--text-color);
+}
+.ditails-card2{
+    margin-top: 60px;
+}
+.cirti{
+    width: 100%;
+    height: fit-content;
+    /* background-color: crimson; */
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cirti1{
+    width: 25%;
+    height: 220px;
+    /* background-color: brown; */
+}
